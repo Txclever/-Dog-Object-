@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #status{
+      margin-top: 30px;
+    }
+    .dog{
+      width: 600px;
+      height: 435px;
+      /* height: 300px; */
+      background-image: url("./img/timg2.jpg");
+    }
+    #Feed{
+      margin-top: 10px;
+    }
+    #Run{
+      margin-left: 37px;
+    }
+    #farme{
+      position: absolute;
+      left: 200px;
+      top: 240px;
+      width: 365px;
+      height: 20px;
+      border: 1px solid red;
+      background-color: #ffff;
+      padding-left: 30px;
+      /* line-height: -20px; */
+    }
+    #resurgence{
+      margin-left: 46px;
+    }
+  </style>
+</head>
+<body>
+  <!-- <img src="./img/timg.jpg" alt=""> -->
+  <div id="farme">汪汪汪！！！</div>
+  <div id="dogPic"></div>
+  <div id="status"></div>
+  <button id="Feed" onclick="dog.feed()">喂它！</button>
+  <button id="Run" onclick="dog.run()">跑起来!</button>
+  <button id="resurgence" onclick="dog.resurgence()">请购买复活甲！</button>
+  <script src="./object.js"></script>
+</body>
+</html>
